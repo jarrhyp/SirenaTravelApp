@@ -1,0 +1,9 @@
+{
+	"name": "Hotel Grande",
+	"links": ["Bus Route 1", "Bus Route 12","Sirena Main Shuttle Bus","Bus Route 14"],
+	"description": "This is the main resort of Sirena Beach, a place to stay and relax. Set in the centre of the island, just about every main service you will need is here. Restaurants and cafes are available here as well!",
+	"thumbnail":"res://Photography/hotelgrande1.png",
+	"photos": ["res://Photography/hotelgrande1.png", "res://Photography/hotelgrande2.png"],
+	"time": "79",
+	"type":["destination","hotel","busstop","shopping"]
+}

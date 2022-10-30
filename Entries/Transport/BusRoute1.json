@@ -1,0 +1,9 @@
+{
+	"name": "Bus Route 1",
+	"links": ["Island Central Station", "Hotel Grande"],
+	"description": "The fastest route directly from the Airstrip to Hotel Grande, this is usually the first bus that most everyone takes to reach their accommodation. The service runs 24 hours of the day, allowing people to come and go.",
+	"thumbnail":"res://Photography/busroute1.png", 
+	"photos": ["res://Photography/busroute1.png", "res://Photography/none"],
+	"time": "100",
+	"type":["busstop","beach","transport"]
+}

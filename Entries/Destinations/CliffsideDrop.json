@@ -1,0 +1,9 @@
+{
+	"name": "Cliffside Drop",
+	"links": ["Sirena Main Shuttle Bus","Bus Route 20"],
+	"description": "The main destination for hang-gliding, bungie-jumping, and various other extreme sports. For the most daring of those who wish to seek thrills, this is your one-stop shop!",
+	"thumbnail":"res://Photography/cliffsidedrop1.png",
+	"photos": ["res://Photography/cliffsidedrop1.png", "res://Photography/cliffsidedrop2.png"],
+	"time": "145",
+	"type":["nature","destination"]
+}

@@ -1,0 +1,9 @@
+{
+	"name": "Sirena Plaza",
+	"links": ["Bus Route 1", "Sirena Main Shuttle Bus","Bus Route 12"],
+	"description": "The main shopping area of Sirena Island. Browse our selection of natural wares including everything from local-made trinkets to specialty stores. We have a wide variety of souveneers for anyone to enjot.",
+	"thumbnail":"res://Photography/sirenaplaza1.png",
+	"photos": ["res://Photography/sirenaplaza1.png", "res://Photography/sirenaplaza2.png"],
+	"time": "70",
+	"type":["destination","shopping","busstop"]
+}

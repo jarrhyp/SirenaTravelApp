@@ -1,0 +1,9 @@
+{
+	"name": "Sirena Airport",
+	"links": ["Sirena Main Shuttle Bus","Bus Route 1"],
+	"description": "This is the main airport for Sirena. It's the main way on and off the island. We also have a bar and shops there for your leisure as well. Enjoy your flight!",
+	"thumbnail":"res://Photography/sirenaairport1.png",
+	"photos": ["res://Photography/sirenaairport1.png", "res://Photography/sirenaairport2.png"],
+	"time": "25",
+	"type":["airport","destination"]
+}

@@ -1,0 +1,9 @@
+{
+	"name": "Bus Route 20",
+	"links": ["Hotel Grande","Sirena Beach", "Sirena Plaza", "Hotel Grande (Return)" ],
+	"description": "This route is for quicl access to the natural wonders and extreme sports destinations of Sirena. If you are seeking adventure, you've found the fastest way there!",
+	"thumbnail":"res://Photography/busroute20.png", 
+	"photos": ["res://Photography/busroute20.png", "res://Photography/none"],
+	"time": "35",
+	"type":["busstop","beach","transport"]
+}

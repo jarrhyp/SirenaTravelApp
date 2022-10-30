@@ -1,0 +1,9 @@
+{
+	"name": "Main Shuttle Bus",
+	"links": ["Hotel Grande","Sirena Beach", "Sirena Plaza", "Rainforest Walk", "Cliffside Drop", "Hotel Grande (Return)" ],
+	"description": "The complete experience, this shuttle bus is a one-day full tour from the Hotel Grande, around the entire island, and back home just in time for sunset. This bus goes just about everywhere on the island.",
+	"thumbnail":"res://Photography/busroute1.png", 
+	"photos": ["res://Photography/busroute1.png", "res://Photography/sirenaairport1.png"],
+	"time": "240",
+	"type":["busstop","beach","transport"]
+}

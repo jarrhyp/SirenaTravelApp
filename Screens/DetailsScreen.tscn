@@ -1,0 +1,156 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://Sprites/book_a_trip.png" type="Texture" id=1]
+[ext_resource path="res://Sirena_TitleBar.tres" type="StyleBox" id=2]
+[ext_resource path="res://Fonts/NotoFont_Data.tres" type="DynamicFontData" id=3]
+[ext_resource path="res://SirenaTheme.tres" type="Theme" id=4]
+[ext_resource path="res://Scripts/ApplyAttribs.gd" type="Script" id=5]
+[ext_resource path="res://Photography/hotelgrande2.png" type="Texture" id=6]
+[ext_resource path="res://Photography/cliffsidedrop1.png" type="Texture" id=7]
+[ext_resource path="res://Fonts/BigTitle_Dynamic.tres" type="DynamicFont" id=8]
+[ext_resource path="res://Sprites/back.png" type="Texture" id=9]
+
+[sub_resource type="DynamicFont" id=2]
+size = 256
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 3 )
+
+[node name="DetailsScreen" type="Panel"]
+margin_right = 360.0
+margin_bottom = 740.0
+theme = ExtResource( 4 )
+script = ExtResource( 5 )
+small = false
+
+[node name="TitleBar" type="Panel" parent="."]
+margin_right = 360.0
+margin_bottom = 56.0
+theme = ExtResource( 4 )
+custom_styles/panel = ExtResource( 2 )
+
+[node name="Subtitle" type="Label" parent="TitleBar"]
+margin_left = 304.0
+margin_top = 32.0
+margin_right = 1317.0
+margin_bottom = 382.0
+rect_scale = Vector2( 0.05, 0.05 )
+theme = ExtResource( 4 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "Details"
+valign = 1
+
+[node name="Name" type="Label" parent="."]
+margin_left = 6.0
+margin_right = 1552.0
+margin_bottom = 350.0
+rect_scale = Vector2( 0.165, 0.165 )
+theme = ExtResource( 4 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "<itemname>"
+valign = 1
+
+[node name="Links" type="RichTextLabel" parent="."]
+margin_left = 80.0
+margin_top = 64.0
+margin_right = 5520.0
+margin_bottom = 1504.0
+rect_scale = Vector2( 0.05, 0.05 )
+theme = ExtResource( 4 )
+bbcode_enabled = true
+scroll_active = false
+
+[node name="Description" type="RichTextLabel" parent="."]
+margin_left = 80.0
+margin_top = 152.0
+margin_right = 5520.0
+margin_bottom = 2712.0
+rect_scale = Vector2( 0.05, 0.05 )
+theme = ExtResource( 4 )
+text = "This is placeholder text for an extended description for the item in question. Originally, this was intended for the expanding tile, however, it was deemed to hard to implement, and I was short a screen. This made it the obvoius choice to create a new screen to alieviate this."
+scroll_active = false
+
+[node name="Thumbnail" type="TextureRect" parent="."]
+margin_left = 8.0
+margin_top = 72.0
+margin_right = 72.0
+margin_bottom = 136.0
+texture = ExtResource( 6 )
+expand = true
+stretch_mode = 6
+
+[node name="Time" type="RichTextLabel" parent="."]
+margin_left = -6.0
+margin_top = 132.0
+margin_right = 1508.0
+margin_bottom = 899.0
+grow_horizontal = 2
+grow_vertical = 2
+rect_scale = Vector2( 0.06, 0.06 )
+theme = ExtResource( 4 )
+custom_colors/default_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_shadow = Color( 0.690196, 0.690196, 0.690196, 1 )
+custom_constants/shadow_offset_x = 20
+custom_constants/shadow_offset_y = 20
+custom_constants/table_hseparation = -20
+custom_constants/line_separation = -175
+custom_fonts/normal_font = ExtResource( 8 )
+bbcode_enabled = true
+bbcode_text = "[center]9999
+mins"
+text = "9999
+mins"
+scroll_active = false
+
+[node name="MainPhoto" type="TextureRect" parent="."]
+margin_left = 80.0
+margin_top = 288.0
+margin_right = 344.0
+margin_bottom = 424.0
+rect_clip_content = true
+size_flags_horizontal = 8
+size_flags_vertical = 8
+texture = ExtResource( 7 )
+expand = true
+stretch_mode = 6
+
+[node name="SecondaryPhoto" type="TextureRect" parent="."]
+margin_left = 80.0
+margin_top = 440.0
+margin_right = 344.0
+margin_bottom = 576.0
+rect_clip_content = true
+size_flags_horizontal = 8
+size_flags_vertical = 8
+texture = ExtResource( 7 )
+expand = true
+stretch_mode = 6
+
+[node name="BOOK button" type="TextureButton" parent="."]
+margin_left = 49.0
+margin_top = 602.0
+margin_right = 1071.0
+margin_bottom = 784.0
+rect_scale = Vector2( 0.25, 0.25 )
+texture_normal = ExtResource( 1 )
+stretch_mode = 3
+
+[node name="BACK button" type="TextureButton" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -76.0
+margin_top = -85.0
+margin_right = 542.0
+margin_bottom = 97.0
+rect_scale = Vector2( 0.25, 0.25 )
+texture_normal = ExtResource( 9 )
+stretch_mode = 3
+
+[connection signal="pressed" from="BOOK button" to="." method="_on_BOOK_button_pressed"]
+[connection signal="pressed" from="BACK button" to="." method="_on_BACK_button_pressed"]

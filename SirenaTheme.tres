@@ -1,0 +1,42 @@
+[gd_resource type="Theme" load_steps=9 format=2]
+
+[ext_resource path="res://Fonts/NotoFont_Dynamic.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Resources/LineEditPanel.tres" type="StyleBox" id=2]
+[ext_resource path="res://Sprites/unchecked.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/checked.png" type="Texture" id=4]
+[ext_resource path="res://Fonts/NotoFontItalic_Dynamic.tres" type="DynamicFont" id=5]
+
+[sub_resource type="BitmapFont" id=3]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 1, 1, 1, 1 )
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.772549, 0.772549, 0.772549, 1 )
+
+[resource]
+CheckBox/icons/checked = ExtResource( 4 )
+CheckBox/icons/unchecked = ExtResource( 3 )
+Label/colors/font_color = Color( 1, 1, 1, 1 )
+Label/colors/font_color_shadow = Color( 0, 0, 0, 0 )
+Label/colors/font_outline_modulate = Color( 1, 1, 1, 1 )
+Label/constants/line_spacing = 3
+Label/constants/shadow_as_outline = 0
+Label/constants/shadow_offset_x = 1
+Label/constants/shadow_offset_y = 1
+Label/fonts/font = SubResource( 3 )
+Label/styles/normal = null
+LineEdit/colors/clear_button_color = Color( 1, 1, 1, 1 )
+LineEdit/colors/clear_button_color_pressed = Color( 1, 1, 1, 1 )
+LineEdit/colors/cursor_color = Color( 0.462745, 0.462745, 0.462745, 1 )
+LineEdit/colors/font_color = Color( 0, 0, 0, 1 )
+LineEdit/colors/font_color_selected = Color( 0.364706, 0.364706, 0.364706, 1 )
+LineEdit/colors/font_color_uneditable = Color( 0.52549, 0.52549, 0.52549, 1 )
+LineEdit/fonts/font = ExtResource( 1 )
+LineEdit/styles/normal = ExtResource( 2 )
+Panel/styles/panel = SubResource( 1 )
+Panel/styles/titlebar = SubResource( 2 )
+RichTextLabel/colors/default_color = Color( 0, 0, 0, 1 )
+RichTextLabel/fonts/italics_font = ExtResource( 5 )
+RichTextLabel/fonts/normal_font = ExtResource( 1 )

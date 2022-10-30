@@ -1,0 +1,9 @@
+{
+	"name": "Bus Route 12",
+	"links": ["Hotel Grande","Sirena Beach", "Sirena Plaza", "Hotel Grande (Return)" ],
+	"description": "Need quick access to the plaza? The fastest way to the Plaza is via this route. Along the way, you'll be able to access the beach as well.",
+	"thumbnail":"res://Photography/busroute20.png", 
+	"photos": ["res://Photography/busroute20.png", "res://Photography/none"],
+	"time": "35",
+	"type":["busstop","beach","transport"]
+}

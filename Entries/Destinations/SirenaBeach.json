@@ -1,0 +1,9 @@
+{
+	"name": "Sirena Beach",
+	"links": ["Bus Route 1", "Bus Route 12","Sirena Main Shuttle Bus","Bus Route 14"],
+	"description": "The star of the show when it comes to relaxation. The largest area of the island, and the main place to see on your journey around the island. Various trails connect onto the beach.",
+	"thumbnail":"res://Photography/sirenabeach1.png",
+	"photos": ["res://Photography/sirenabeach1.png", "res://Photography/sirenabeach2.png"],
+	"time": "20",
+	"type":["destination","beach","busstop"]
+}

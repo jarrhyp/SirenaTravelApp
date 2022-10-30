@@ -1,0 +1,9 @@
+{
+	"name": "Rainforest Walk",
+	"links": ["Sirena Main Shuttle Bus","Bus Route 20","Bus Route 43"],
+	"description": "For those who wish to see the natural beauty of the island, the Rainforest Walk will take you through our largest wildlife and nature park, showing off the best of Sirena's flora and fauna.",
+	"thumbnail":"res://Photography/rainforestwalk1.png",
+	"photos": ["res://Photography/rainforestwalk1.png", "res://Photography/rainforestwalk2.png"],
+	"time": "100",
+	"type":["busstop","beach","destination"]
+}
